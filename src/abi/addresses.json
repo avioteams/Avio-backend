@@ -1,0 +1,15 @@
+{
+  "network": "fuji",
+
+  "tokens": {
+    "wavax": "0xd00ae08403b9bbb9124bb305c09058e32c39a48c",
+    "usdc": "0x5425890298aed601595a70AB815c96711a31Bc65"
+  },
+
+  "paymentTokens": {
+    "avax": "0x0000000000000000000000000000000000000000",
+    "usdc": "0x5425890298aed601595a70AB815c96711a31Bc65"
+  },
+
+  "swapRouter": "0x2D99ABD9008Dc933ff5c0CD1eA4bBfF2FdcfD459"
+}
