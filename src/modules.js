@@ -155,7 +155,7 @@ wallet = new ethers.Wallet(PRIVATE_KEY, provider);
 
   // Load ABIs
   const EscrowABI = require(path.join(__dirname, 'abi', 'Escrow.json'));
-  const ERC20ABI = require(path.join(__dirname, 'abi', 'mockERC20.json'));
+  const ERC20ABI = require(path.join(__dirname, 'abi', 'MockERC20.json'));
   const ReceiptABI = require(path.join(__dirname, 'abi', 'PaymentReceiptNFT.json'));
   const RouterABI = require(path.join(__dirname, 'abi', 'PaymentRouter.json'));
   const UserRegistryABI = require(path.join(__dirname, 'abi', 'UserRegistry.json'));
@@ -887,4 +887,5 @@ module.exports = {
   system,
   escrow
 };
+
 
