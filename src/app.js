@@ -10,13 +10,8 @@ const app = express();
 app.use(express.json());
 const cors = require("cors");
 
-app.use(cors({
-  origin: "*",
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"]
-}));
+app.use(cors());
 
-app.options("*", cors());
 
 // -------------------- AUTH ROUTES --------------------
 app.get('/auth/nonce', auth.getNonce);
@@ -69,3 +64,4 @@ app.get('/system/health', system.health);
 
 
 module.exports = app;
+
